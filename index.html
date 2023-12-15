@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Page with Read and Unread Messages</title>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Notification App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="top-bar">
+                <div class="title">
+                    <p class="title-text">Notifications</p>
+                    <p class="num" id="num">3</p>
+                </div>
+                <a href="#" class="read" id="read">Mark all as read</a>
+            </div>
+            <div class="notifications">
+                <!--First noti. start here-->
+                <div class="single-box unseen">
+                    <div class="avatar">
+                        <img src="avatar-mark-webber.webp" alt="error in mark webber image!">
+                    </div>
+                    <div class="box-text">
+                        <p class="notify">
+                            <a href="#" class="name">Mark Webber</a> reached to your recent post 
+                            <a href="#" class="post"> My first tournament today!</a>
+                            <span class="dot"></span>
+                        </p>
+                        <p class="time">1m ago</p>
+                    </div>
+                </div>
+                <!--First noti. ends here-->
+
+                <!--second noti. start here-->
+                <div class="single-box unseen">
+                    <div class="avatar">
+                        <img src="avatar-angela-gray.webp" alt="error in angela gray image!">
+                    </div>
+                    <div class="box-text">
+                        <p class="notify">
+                            <a href="#" class="name">Angela Gray</a>followed you
+                            <span class="dot"></span>
+                        </p>
+                        <p class="time">5m ago</p>
+                    </div>
+                </div>
+                <!--second noti. ends here-->
+
+                <!--third noti. start here-->
+                <div class="single-box unseen">
+                    <div class="avatar">
+                        <img src="avatar-jacob-thompson.webp" alt="error in jacob thompson image!">
+                    </div>
+                    <div class="box-text">
+                        <p class="notify">
+                            <a href="#" class="name">Jacob Thompson</a>has joined your group
+                            <a href="#" class="post">Chess Club</a>
+                            <span class="dot"></span>
+                        </p>
+                        <p class="time">1 day ago</p>
+                    </div>
+                </div>
+                <!--third noti. ends here-->
+
+                <!--four noti. start here-->
+                <div class="single-box with-msg">
+                    <div class="avatar">
+                        <img src="avatar-rizky-hasanuddin.webp" alt="error in rizky image!">
+                    </div>
+                    <div class="box-text">
+                        <p class="notify">
+                            <a href="#" class="name">Rizky Hassanuddin</a>sent you a private message 
+                        </p>
+                        <p class="time">5 days ago</p>
+                        <div class="rizkey-message">
+                            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game</p>
+                        </div>
+                    </div>
+                </div>
+                <!--four noti. ends here-->
+
+                <!--fifth noti. with left-side picture start here-->
+                <div class="single-box comment">
+                    <div class="left">
+                        <div class="avatar">
+                            <img src="avatar-kimberly-smith.webp" alt="error in kimberly image!">
+                        </div>
+                        <div class="box-text">
+                            <p class="notify">
+                                <a href="#" class="name">Kimberly Smith</a>commented on your picture 
+                            </p>
+                            <p class="time">1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <img src="image-chess.webp" alt="">
+                    </div>
+                </div>
+                <!--fifth noti. with left-side picture start here-->
+
+                <!--six noti. start here-->
+                <div class="single-box">
+                    <div class="avatar">
+                        <img src="avatar-nathan-peterson.webp" alt="error in nathan peterson image!">
+                    </div>
+                    <div class="box-text">
+                        <p class="notify">
+                            <a href="#" class="name">Nathan Peterson</a>reacted to your recent post
+                            <a href="#" class="post">5 end-game strategies to increase your win rate</a>
+                        </p>
+                        <p class="time">2 weeks ago</p>
+                    </div>
+                </div>
+                <!--six noti. ends here-->
+                <!--seven noti. start here-->
+                <div class="single-box">
+                    <div class="avatar">
+                        <img src="avatar-anna-kim.webp" alt="error in anna kim image!">
+                    </div>
+                    <div class="box-text">
+                        <p class="notify">
+                            <a href="#" class="name">Anna Kim</a>left the group
+                            <a href="#" class="post">Chess Club</a>
+                        </p>
+                        <p class="time">2 weeks ago</p>
+                    </div>
+                </div>
+                <!--seven noti. ends here-->
+            </div>
+        </div>
+    </div>
+
+    <script src="noti.js"></script>
+</body>
+</html>
