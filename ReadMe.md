@@ -7,6 +7,7 @@ Welcome to my Notification Page project! 💌✨ Dive into the world of JavaScri
 Explore the features of my Notification Page:
 - **Message Management**: Easily view different messages and their status (read or unread).
 - **Mark as Read**: Quickly mark all messages as read with just a click.
+- **Unread Message Count**: Stay informed with the total number of unread messages displayed prominently.
 
 Ready to streamline your message management? Let's get started! 🚀
 
